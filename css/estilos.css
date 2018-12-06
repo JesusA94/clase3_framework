@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Poppins', sans-serif; }
+
+header .navbar-default {
+  margin: 0;
+  border-radius: 0; }
+  header .navbar-default a {
+    padding: 20px 0 20px 0; }
+    header .navbar-default a img {
+      width: 100px;
+      height: 90px; }
+  header .navbar-default .navbar-nav li a {
+    color: #999999;
+    text-align: center;
+    font-size: 18px;
+    padding: 57px 30px 57px 30px; }
+    header .navbar-default .navbar-nav li a span {
+      font-size: 10px; }
+  header .navbar-default .navbar-nav li .dropdown-menu {
+    margin-top: 17px;
+    min-width: 100%;
+    border: white 1px solid; }
+    header .navbar-default .navbar-nav li .dropdown-menu li {
+      margin: 0 0 20px 7%; }
+      header .navbar-default .navbar-nav li .dropdown-menu li a {
+        text-align: start;
+        background: white;
+        padding: 0;
+        font-size: 14px;
+        font-weight: normal; }
+      header .navbar-default .navbar-nav li .dropdown-menu li:first-child {
+        margin: 0; }
+        header .navbar-default .navbar-nav li .dropdown-menu li:first-child span {
+          color: white;
+          position: absolute;
+          top: -16px;
+          left: 40%;
+          font-size: 20px; }
+  header .navbar-default .navbar-nav li:nth-child(1) a {
+    background: #ffdd83;
+    font-weight: bold; }
+  header .navbar-default .navbar-nav li:last-child a {
+    padding-right: 0; }
+
+.formulario {
+  background-image: url("../img/aventura.jpg");
+  background-size: cover;
+  height: 670px; }
+  .formulario .vive {
+    padding-top: 50px; }
+    .formulario .vive p {
+      font-weight: bold;
+      font-size: 90px;
+      color: #bdbdbd; }
+      .formulario .vive p span {
+        font-weight: normal;
+        color: white;
+        font-family: 'Lobster', cursive;
+        font-size: 140px; }
+  .formulario form {
+    padding: 10px 15px 10px 15px;
+    height: 220px;
+    background: white; }
+    .formulario form .form-group {
+      font-size: 16px; }
+      .formulario form .form-group button {
+        margin-top: 20px; }
+      .formulario form .form-group .checkbox {
+        text-align: center; }
+
+.servicios {
+  margin-bottom: 50px; }
+  .servicios h2 {
+    font-size: 40px;
+    color: #999999;
+    font-family: 'Lobster', cursive;
+    padding: 20px 0 10px 0; }
+  .servicios .linea {
+    background: #f2f2f2;
+    height: 2px; }
+  .servicios article {
+    background: #ffdd83;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: solid white 10px;
+    margin-top: 20px; }
+    .servicios article a {
+      font-size: 20px;
+      color: white;
+      text-decoration: none; }
+    .servicios article span {
+      font-size: 50px;
+      color: white; }
+
+.destinos article {
+  height: 240px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .destinos article h4 {
+    color: white;
+    border: white 1px solid;
+    padding: 10px; }
+
+.destinos article:nth-child(1) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"); }
+
+.destinos article:nth-child(2) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.pexels.com/photos/427747/pexels-photo-427747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/427747/pexels-photo-427747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/427747/pexels-photo-427747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/427747/pexels-photo-427747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }
+
+.destinos article:nth-child(3) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.pexels.com/photos/161276/moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/161276/moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/161276/moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/161276/moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }
+
+.destinos article:nth-child(4) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }
+
+footer {
+  background: #f2f2f2;
+  padding: 10px; }
+  footer p {
+    font-size: 20px; }
+
+@media (min-width: 320px) {
+  header .navbar-default a img {
+    width: 60px;
+    height: 90px; }
+  header .navbar-default .navbar-nav li a {
+    padding: 10px 0 10px 0; }
+  header .navbar-default .navbar-nav li .dropdown-menu {
+    margin-top: 0; }
+    header .navbar-default .navbar-nav li .dropdown-menu li {
+      margin: 0 0 20px 7%; }
+      header .navbar-default .navbar-nav li .dropdown-menu li a {
+        padding: 0; }
+      header .navbar-default .navbar-nav li .dropdown-menu li:first-child {
+        display: none; }
+  header .navbar-default .navbar-nav li:nth-child(1) a {
+    background: #ffdd83; }
+  .formulario {
+    height: 600px; }
+    .formulario .vive {
+      padding-bottom: 40px; }
+      .formulario .vive p {
+        font-size: 60px; }
+        .formulario .vive p span {
+          color: #2f2f2f;
+          font-size: 70px; }
+    .formulario form {
+      height: 620px; }
+      .formulario form .form-group {
+        font-size: 12px; }
+        .formulario form .form-group .checkbox {
+          text-align: start; }
+  .servicios {
+    margin-top: 280px; }
+  footer {
+    background: #f2f2f2;
+    padding: 10px; }
+    footer p {
+      font-size: 15px; } }
+
+@media (min-width: 768px) {
+  header .navbar-default a img {
+    width: 120px;
+    height: 90px; }
+  header .navbar-default .navbar-nav li a {
+    padding: 57px 22px 57px 22px; }
+  header .navbar-default .navbar-nav li .dropdown-menu {
+    margin-top: 17px; }
+    header .navbar-default .navbar-nav li .dropdown-menu li:first-child {
+      display: block; }
+  header .navbar-default .navbar-nav li:nth-child(1) a {
+    background: #ffdd83;
+    font-weight: bold; }
+  header .navbar-default .navbar-nav li:last-child a {
+    padding-right: 0; }
+  .formulario {
+    height: 580px; }
+    .formulario .vive p {
+      font-size: 60px; }
+      .formulario .vive p span {
+        color: white;
+        font-size: 90px; }
+    .formulario form {
+      height: 220px; }
+      .formulario form .form-group button {
+        margin-top: 15px; }
+  .servicios {
+    margin-top: 0; }
+    .servicios article a {
+      font-size: 15px; } }
+
+@media (min-width: 1024px) {
+  header .navbar-default {
+    margin: 0;
+    border-radius: 0; }
+    header .navbar-default a {
+      padding: 20px 0 20px 0; }
+      header .navbar-default a img {
+        width: 130px;
+        height: 90px; }
+    header .navbar-default .navbar-nav li a {
+      font-size: 18px;
+      padding: 57px 30px 57px 30px; }
+    header .navbar-default .navbar-nav li .dropdown-menu {
+      margin-top: 17px;
+      min-width: 100%;
+      border: white 1px solid; }
+      header .navbar-default .navbar-nav li .dropdown-menu li {
+        margin: 0 0 20px 7%; }
+        header .navbar-default .navbar-nav li .dropdown-menu li a {
+          text-align: start;
+          background: white;
+          padding: 0;
+          font-size: 14px;
+          font-weight: normal; }
+        header .navbar-default .navbar-nav li .dropdown-menu li:first-child {
+          margin: 0; }
+          header .navbar-default .navbar-nav li .dropdown-menu li:first-child span {
+            color: white;
+            position: absolute;
+            top: -16px;
+            left: 40%;
+            font-size: 20px; }
+    header .navbar-default .navbar-nav li:nth-child(1) a {
+      background: #ffdd83;
+      font-weight: bold; }
+    header .navbar-default .navbar-nav li:last-child a {
+      padding-right: 0; }
+  .formulario {
+    height: 750px; }
+    .formulario .vive {
+      padding-top: 50px; }
+      .formulario .vive p {
+        font-size: 90px; }
+        .formulario .vive p span {
+          color: white;
+          font-size: 140px; }
+    .formulario form {
+      padding: 10px 15px 10px 15px;
+      height: 220px; }
+      .formulario form .form-group {
+        font-size: 16px; }
+        .formulario form .form-group button {
+          margin-top: 20px; }
+        .formulario form .form-group .checkbox {
+          text-align: center; }
+  .servicios {
+    margin-bottom: 50px; }
+    .servicios h2 {
+      font-size: 40px; }
+    .servicios .linea {
+      background: #f2f2f2;
+      height: 2px; }
+    .servicios article {
+      height: 150px; }
+      .servicios article a {
+        font-size: 20px; }
+      .servicios article span {
+        font-size: 50px; } }

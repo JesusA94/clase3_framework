@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    .navbar-default{
+        margin: 0;
+        border-radius: 0;
+        a{
+            padding: 20px 0 20px 0;
+            img{
+                width: 100px;
+                height: 90px;
+            }
+        }
+        .navbar-nav{
+            li{
+                a{
+                    color: #999999;
+                    text-align: center;
+                    font-size: 18px;
+                    padding: 57px 30px 57px 30px;
+                    span{
+                        font-size: 10px;  
+                    }
+                }
+                .dropdown-menu{
+                    margin-top: 17px;
+                    min-width: 100%;
+                    border: white 1px solid;
+                    li{
+                        margin: 0 0 20px 7%;
+                        a{
+                            text-align: start;
+                            background: white;
+                            padding: 0;
+                            font-size: 14px;
+                            font-weight: normal;
+                        }
+                        &:first-child{
+                            margin: 0;
+                            span{
+                                color: white;
+                                position: absolute;
+                                top: -16px;
+                                left: 40%;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(1){
+                    a{
+                        background: #ffdd83;
+                        font-weight: bold;
+                    }
+                }
+                &:last-child{
+                    a{
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.formulario{
+    background-image: url("../img/aventura.jpg");
+    background-size: cover;
+    height: 670px;
+    .vive{
+        padding-top: 50px;
+        p{
+            font-weight: bold;
+            font-size: 90px;
+            color: #bdbdbd;
+            span{
+                font-weight: normal;
+                color:white; 
+                font-family: 'Lobster', cursive;
+                font-size: 140px;
+            }
+        }
+    }
+    form{
+        padding: 10px 15px 10px 15px;
+        height: 220px;
+        background: white;
+        .form-group{
+            font-size: 16px;
+            button{
+                margin-top: 20px;
+            }
+            .checkbox{
+                text-align: center;
+            }
+        }
+    }
+}
+.servicios{
+    margin-bottom: 50px;
+    h2{
+        font-size: 40px;
+        color: #999999;
+        font-family: 'Lobster', cursive;
+        padding: 20px 0 10px 0;
+    }
+    .linea{
+        background: #f2f2f2;
+        height: 2px;
+    }
+    article{
+        background: #ffdd83;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid white 10px;
+        margin-top: 20px;
+        a{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        span{
+            font-size: 50px;
+            color: white;
+        }
+    }
+}
+.destinos{
+    article{
+        height: 240px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h4{
+            color: white;
+            border: white 1px solid;
+            padding: 10px;
+        }
+    }
+    article:nth-child(1){
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url("https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    }
+    article:nth-child(2){
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url("https://images.pexels.com/photos/427747/pexels-photo-427747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+    article:nth-child(3){
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url("https://images.pexels.com/photos/161276/moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+    article:nth-child(4){
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url("https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+}
+footer{
+    background: #f2f2f2;
+    padding: 10px;
+    p{
+        font-size: 20px;
+    }
+}
+@media (min-width:320px){
+    header{
+        .navbar-default{
+            a{
+                img{
+                    width: 60px;
+                    height: 90px;
+                }
+            }
+            .navbar-nav{
+                li{
+                    a{
+                        padding: 10px 0 10px 0;
+                    }
+                    .dropdown-menu{
+                        margin-top: 0;
+                        li{
+                            margin: 0 0 20px 7%;
+                            a{
+                                padding: 0;
+                            }
+                            &:first-child{
+                                display: none;
+                            }
+                        }
+                    }
+                    &:nth-child(1){
+                        a{
+                            background: #ffdd83;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .formulario{
+        height: 600px;
+        .vive{
+            padding-bottom: 40px;
+            p{
+                font-size: 60px;
+                span{
+                    color:rgb(47, 47, 47); 
+                    font-size: 70px;
+                }
+            }
+        }
+        form{
+            height: 620px;
+            .form-group{
+                font-size: 12px;
+                .checkbox{
+                    text-align: start;
+                }
+            }
+        }
+    }
+    .servicios{
+        margin-top: 280px;
+    }
+    footer{
+        background: #f2f2f2;
+        padding: 10px;
+        p{
+            font-size: 15px;
+        }
+    }
+}
+@media (min-width:768px){
+    header{
+        .navbar-default{
+            a{
+                img{
+                    width: 120px;
+                    height: 90px;
+                }
+            }
+            .navbar-nav{
+                li{
+                    a{
+                        padding: 57px 22px 57px 22px;
+                    }
+                    .dropdown-menu{
+                        margin-top: 17px;
+                        li{
+                            &:first-child{
+                                display: block;
+                            }
+                        }
+                    }
+                    &:nth-child(1){
+                        a{
+                            background: #ffdd83;
+                            font-weight: bold;
+                        }
+                    }
+                    &:last-child{
+                        a{
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .formulario{
+        height: 580px;
+        .vive{
+            p{
+                font-size: 60px;
+                span{
+                    color:white; 
+                    font-size: 90px;
+                }
+            }
+        }
+        form{
+            height: 220px;
+            .form-group{
+                button{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    .servicios{
+        margin-top: 0;
+        article{
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media (min-width:1024px){
+    header{
+        .navbar-default{
+            margin: 0;
+            border-radius: 0;
+            a{
+                padding: 20px 0 20px 0;
+                img{
+                    width: 130px;
+                    height: 90px;
+                }
+            }
+            .navbar-nav{
+                li{
+                    a{
+                        font-size: 18px;
+                        padding: 57px 30px 57px 30px;
+                    }
+                    .dropdown-menu{
+                        margin-top: 17px;
+                        min-width: 100%;
+                        border: white 1px solid;
+                        li{
+                            margin: 0 0 20px 7%;
+                            a{
+                                text-align: start;
+                                background: white;
+                                padding: 0;
+                                font-size: 14px;
+                                font-weight: normal;
+                            }
+                            &:first-child{
+                                margin: 0;
+                                span{
+                                    color: white;
+                                    position: absolute;
+                                    top: -16px;
+                                    left: 40%;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(1){
+                        a{
+                            background: #ffdd83;
+                            font-weight: bold;
+                        }
+                    }
+                    &:last-child{
+                        a{
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .formulario{
+        height: 750px;
+        .vive{
+            padding-top: 50px;
+            p{
+                font-size: 90px;
+                span{
+                    color:white; 
+                    font-size: 140px;
+                }
+            }
+        }
+        form{
+            padding: 10px 15px 10px 15px;
+            height: 220px;
+            .form-group{
+                font-size: 16px;
+                button{
+                    margin-top: 20px;
+                }
+                .checkbox{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .servicios{
+        margin-bottom: 50px;
+        h2{
+            font-size: 40px;
+        }
+        .linea{
+            background: #f2f2f2;
+            height: 2px;
+        }
+        article{
+            height: 150px;
+            a{
+                font-size: 20px;
+            }
+            span{
+                font-size: 50px;
+            }
+        }
+    }
+}

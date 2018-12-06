@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="col-xs-4 col-xs-offset-5">
+                            <img src="img/logo-agencia-de-viajes.png" class="img-responsive">
+                        </a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="myNavbar">
+                        <li><a href="#">Inicio</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Servicios <span class="glyphicon glyphicon-triangle-bottom"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><span class="glyphicon glyphicon-triangle-top"></span></li>
+								<li><a href="#">Boletos aéreos</a></li>
+								<li><a href="#">Cruseros</a></li>
+								<li><a href="#">Hoteles</a></li>
+								<li><a href="#">Tours</a></li>
+							</ul>
+                        </li>
+                        <li><a href="#">Destino</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="formulario">
+            <div class="vive col-md-6 col-md-offset-1 col-sm-offset-1 col-sm-5">
+                <p>Vive en <span>Aventuras</span></p>
+            </div>
+            <form class="col-md-10 col-md-offset-1 col-sm-offset-1 col-sm-10">
+                <div class="row">
+                    <div class="form-group col-md-6 col-xs-12 col-sm-7">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="viaje"
+                                    value="ida-vuelta">Viaje ida y vuelta
+                            </label>
+                            <label>
+                                <input type="radio" name="viaje"
+                                    value="vuelta">Solo ida
+                            </label>
+                            <label>
+                                <input type="radio" name="viaje"
+                                    value="Destino">Multidestino
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-12 col-md-4 col-sm-4">
+                        <div class="checkbox">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="politicas">
+                                    Solo vuelos directos
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-4 col-sm-4">
+                            <label>Desde</label>
+                            <input type="text" name="desde" class="form-control"
+                            placeholder="Ej: Barquisimeto"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-4 col-sm-4">
+                            <label>Hasta</label>
+                            <input type="text" name="desde" class="form-control"
+                            placeholder="Ej: Miami"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-4 col-sm-4">
+                            <label>Clase</label>
+                            <select class="form-control">
+                                <option>Económica</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3 col-sm-3">
+                            <label>Duracion</label>
+                            <select class="form-control">
+                                <option>1 dia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3 col-sm-3">
+                            <label>Adultos</label>
+                            <input type="text" name="desde" class="form-control"
+                            placeholder="0"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3 col-sm-3">
+                            <label>Niños</label>
+                            <input type="text" name="desde" class="form-control"
+                            placeholder="0"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3 col-sm-3">
+                            <button type="button" class="btn btn-success btn-lg btn-block">
+                                <span class="glyphicon glyphicon-search"></span>
+                                Buscar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <section class="servicios col-md-offset-1 col-md-10">
+            <h2>Servicios</h2>
+            <div class="linea"></div>
+            <article class="col-md-3 col-sm-3">
+                    <span class="glyphicon glyphicon-plane"></span>
+                    <a href="#">Boletos aéreos</a>
+            </article>
+            <article class="col-md-3 col-sm-3">
+                    <span class="glyphicon glyphicon-globe"></span>
+                    <a href="#">Cruseros</a>
+            </article>
+            <article class="col-md-3 col-sm-3">
+                    <span class="glyphicon glyphicon-bed"></span>
+                    <a href="#">Hoteles</a>
+            </article>
+            <article class="col-md-3 col-sm-3">
+                    <span class="glyphicon glyphicon-map-marker"></span>
+                    <a href="#">Tours</a>
+            </article>
+        </section>
+        <section class="destinos">
+            <article class="col-md-3 col-sm-3">
+                <h4>FRANCISA</h4>
+            </article>
+            <article class="col-md-3 col-sm-3">
+                <h4>JAPON</h4>
+            </article>
+            <article class="col-md-3 col-sm-3">
+                <h4>RUSIA</h4>
+            </article>
+            <article class="col-md-3">
+                <h4>INGLATERRA</h4>
+            </article>
+        </section>
+        <footer class="col-md-12">
+            <p class="text-center">&copy;CADI F1 2018. Todos los derechos reservados</p>
+        </footer>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
